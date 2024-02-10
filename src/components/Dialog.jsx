@@ -46,7 +46,7 @@ const Dialog = ({ id }) => {
         document.getElementById(id).close()
     }
     return (
-        <dialog id={id} className="modal w-[40%] mx-auto">
+        <dialog id={id} className="modal lg:w-[40%] sm:w-[60%] w-[90%] mx-auto">
             <div className="modal-box">
                 <div className='flex justify-between items-center mb-3'>
                     <h1 className='font-bold text-2xl'>Add Item</h1>
